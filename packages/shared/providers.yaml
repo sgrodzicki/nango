@@ -2197,6 +2197,15 @@ one-note:
         - productivity
     alias: microsoft
     docs: https://docs.nango.dev/integrations/all/one-note
+openai:
+    categories:
+        - dev-tools
+    auth_mode: API_KEY
+    proxy:
+        base_url: https://api.openai.com
+        headers:
+            Authorization: Bearer ${apiKey}
+    docs: https://docs.nango.dev/integrations/all/openai
 ory:
     categories:
         - other
